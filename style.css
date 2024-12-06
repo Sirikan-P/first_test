@@ -1,0 +1,18 @@
+body{
+    margin: 0   ;
+}
+.main-wrapper{
+    background-color: aqua;
+    height: 100vh;
+    background-image: 
+        linear-gradient( to bottom,#000000ff,#00000022,#000000cc),
+        url('https://picsum.photos/id/33/200');
+    background-repeat: no-repeat;
+    background-size: cover; /* auto,cover,contain*/
+    font-size: 60px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
